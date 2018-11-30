@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import javax.xml.bind.JAXBException;
-import org.apache.commons.math.util.FastMath;
+import org.apache.commons.math3.util.FastMath;
 import uk.ac.ebi.pride.tools.braf.BufferedRandomAccessFile;
 
 /**

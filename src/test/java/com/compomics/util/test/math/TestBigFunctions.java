@@ -6,7 +6,7 @@ import java.math.MathContext;
 import java.math.RoundingMode;
 import junit.framework.Assert;
 import junit.framework.TestCase;
-import org.apache.commons.math.util.FastMath;
+import org.apache.commons.math3.util.FastMath;
 
 /**
  * Tests for the math functions on big integers

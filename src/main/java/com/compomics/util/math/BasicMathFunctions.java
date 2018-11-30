@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
-import org.apache.commons.math.util.FastMath;
+import org.apache.commons.math3.util.FastMath;
 
 /**
  * Class used to perform basic mathematical functions.

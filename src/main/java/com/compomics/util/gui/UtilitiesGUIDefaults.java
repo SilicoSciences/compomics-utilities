@@ -1,9 +1,7 @@
 package com.compomics.util.gui;
 
-import com.jgoodies.looks.plastic.PlasticLookAndFeel;
-import com.jgoodies.looks.plastic.PlasticXPLookAndFeel;
-import com.jgoodies.looks.plastic.theme.SkyKrupp;
 import java.io.IOException;
+
 import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
 
@@ -38,16 +36,6 @@ public class UtilitiesGUIDefaults {
             }
         } catch (Exception e) {
             // ignore error, use look and feel below
-        }
-
-        if (!nimbusLookAndFeelFound) {
-            try {
-                PlasticLookAndFeel.setPlasticTheme(new SkyKrupp());
-                UIManager.setLookAndFeel(new PlasticXPLookAndFeel());
-            } catch (Exception ex) {
-                // this should not be possible...
-                // use default look and feel
-            }
         }
 
         return nimbusLookAndFeelFound;

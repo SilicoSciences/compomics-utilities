@@ -9,7 +9,7 @@ import com.compomics.util.experiment.massspectrometry.MSnSpectrum;
 import com.compomics.util.math.BasicMathFunctions;
 import com.compomics.util.experiment.identification.spectrum_annotation.AnnotationSettings;
 import com.compomics.util.experiment.identification.spectrum_annotation.SpecificAnnotationSettings;
-import org.apache.commons.math.util.FastMath;
+import org.apache.commons.math3.util.FastMath;
 import java.util.ArrayList;
 import java.util.HashMap;
 

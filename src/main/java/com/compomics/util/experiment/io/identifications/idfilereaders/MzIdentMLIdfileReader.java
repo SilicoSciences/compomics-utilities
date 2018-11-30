@@ -141,11 +141,9 @@ public class MzIdentMLIdfileReader extends ExperimentObject implements IdfileRea
 
         if (!useCustomParser) {
 
-            if (mzIdentMLFile.length() < 10485760) {
-                unmarshaller = new MzIdentMLUnmarshaller(mzIdentMLFile, true);
-            } else {
+           
                 unmarshaller = new MzIdentMLUnmarshaller(mzIdentMLFile);
-            }
+            
 
             // get the software versions
             AnalysisSoftwareList analysisSoftwareList = unmarshaller.unmarshal(AnalysisSoftwareList.class);
